@@ -1,87 +1,68 @@
 <html>
-    <head>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <style>
-            body {
-                font-size: 17px;
-                font-family: Arial, Helvetica, sans-serif;
-            }
-            table, tr, td {
-                border: 1px solid black;
-            }
-            table {
-                width: 94%;
-                margin: auto;
-            }
-            .boxmodel {
-                font-size: 19px;
-            }
-        </style>
-        <h2>Model pudełkowy</h2>
-        <p>Każdy element w dokumencie HTML, otacza się prostokątnym obszarem zwanym pudełkiem (ang. Box model). Pudełko składa się z kilku warstw:</p>
-        <table>
-            <tbody>
-                <tr>
-                    <td>
-                        Zawartość&emsp;
-                    </td>
-                    <td>
-                        Opis
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        content
-                    </td>
-                    <td>
-                        zawartość elementu (np.: tekst, obrazek)
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        padding
-                    </td>
-                    <td>
-                        otaczające marginesy wewnętrzne, odstęp między obramowaniem i zawartością elementu
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        border
-                    </td>
-                    <td>
-                        obramowania wokół zawartości elementu, ma styl i kolor
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        margin
-                    </td>
-                    <td>
-                        marginesy wokół ramki (margines zewnętrzny). Jest to pusty obszar wokół ramki, który nie ma koloru tła i jest przeźroczysty
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <p>
-            <u>Uwagi:</u><br>
-            1)Padding, border i margin mogą mieć zerową wartość.<br>
-            2)Tło elementu jest określone dla wszystkich z podanych powyżej obszarów z wyjątkiem marginesów zewnętrznych, które zawsze są przezroczyste (transparent).
-        </p>
-        <p>
-            <b class="boxmodel">Model pudełkowy</b> (box model) przedstawiony został na schemacie.
-            <img src="boxmodel.png">
-        </p>
-        <p>
-            <h2>Różnica pomiędzy paddingiem i marginesem</h2>
-            Padding określa przestrzeń wokół danego elementu, np: &lt;p&gt; lub &lt;div&gt;, natomiast margines przestrzeń pomiędzy elementami.
-            <br>
-            <img src="roznice.png">
-            <br>
-            Jak widać na rysunku, padding oznaczony jest kolorem niebieskim. Określa on wielkość przestrzeni wokół elementu &lt;p&gt;. Element ten posiada również margines zaznaczony kolorem pomarańczowym. Jest to odległość od brzegu elementu &lt;body&gt;.
-        </p>
-    </body>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html;CHARSET=UTF-8">
+
+</head>
+	<body>
+5.   <h1>Podaj definicję modelu pudełkowego</h1><br>
+ <a style="font-family: arial;">W CSS każdy element HTML można przedstawić jako model pudełkowy (zwany również modelem blokowym). <br>
+    Z wykorzystaniem modelu pudełkowego, możemy sterować wyglądem i układem strony. Na model pudełkowy składa się zawartość/treść,<br>
+    margines wewnętrzny, obramowanie oraz margines zewnętrzny.<br></a>
+    
+4. <h1> Wykonaj oraz uzupełnij tabelę: <br> </h1>
+
+<table border=1; color=black;>
+
+<thead> 
+<tr> 
+<th> zawartość </th> 
+<th> Opis </th> 
+</tr>
+</thead>
+<tbody> 
+<tr> 
+<td><a style="font-family: arial;"> content </a></td> 
+<td><a style="font-family: arial;"> zawartość elementu (np.: tekst, obrazek) </a></td> 
+</tr> 
+<tr> 
+<td><a style="font-family: arial;"> padding </a></td> 
+<td><a style="font-family: arial;"> otaczające marginesy wewnętrzne, odstęp między obramowaniem i 
+zawartością elementu </a></td> 
+</tr> 
+<tr> 
+<td><a style="font-family: arial;"> border </a></td> 
+<td><a style="font-family: arial;"> obramowania wokół zawartości elementu, ma styl i kolor.</a>
+ </td> 
+</tr> 
+<tr> 
+<td><a style="font-family: arial;"> margin </a></td> 
+<td><a style="font-family: arial;"> marginesy wokół ramki (margines zewnętrzny). Jest to pusty obszar wokół 
+ramki, który nie ma koloru tła i jest przeźroczysty </a></td> 
+</tr>
+</tbody>
+</table>
+<br>
+3. <h1> Podaj dwie uwagi na temat modelu pudełkowego:<br></h1>
+<a style="font-family: arial;">Uwaga1 <br>
+Padding, border i margin mogą mieć zerową wartość.
+Uwaga2 <br>
+Tło elementu jest określone dla wszystkich z podanych powyżej obszarów z wyjątkiem 
+marginesów zewnętrznych, które zawsze są przezroczyste (transparent).
+</a>
+<br>
+2. <h1> Wstaw grafikę obrazującą model pudełkowy </h1>
+<IMG SRC="GMP.png" ALIGN=left BORDER=13 WIDTH=103 HEIGHT=109 ALT="box 1"><br>
+
+1. <h1> Wstaw grafikę obrazującą różnicę pomiędzy paddingiem i marginesem wraz z opisem </h1>
+<a style="font-family: arial;"> 
+Padding określa przestrzeń wokół danego elementu, np: <&nbspp&nbsp> lub <&nbspdiv&nbsp>, natomiast margines 
+przestrzeń pomiędzy elementami.
+<IMG SRC="margi-pad.png" ALIGN=left BORDER=13 WIDTH=103 HEIGHT=109 ALT="box 2"><br>
+Jak widać na rysunku, padding oznaczony jest kolorem niebieskim. Określa on wielkość 
+przestrzeni wokół elementu <&nbspp&nbsp>. Element ten posiada również margines zaznaczony kolorem 
+pomarańczowym. Jest to odległość od brzegu elementu <&nbspbody&nbsp>.</a>
+
+
+      </body>
 </html>
 <!-- Jakub Mydłowski -->
